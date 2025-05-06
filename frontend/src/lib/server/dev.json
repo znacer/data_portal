@@ -1,0 +1,266 @@
+[
+	{
+		"id": "fremm_ship",
+		"name": "Frégate Multi-Missions (FREMM)",
+		"node_type": "Ship",
+		"parent_id": null
+	},
+	{
+		"id": "fremm_propulsion_system",
+		"name": "Système de Propulsion",
+		"node_type": "System",
+		"parent_id": "fremm_ship"
+	},
+	{
+		"id": "fremm_armement_system",
+		"name": "Système d'Armement",
+		"node_type": "System",
+		"parent_id": "fremm_ship"
+	},
+	{
+		"id": "fremm_aircraft_system",
+		"name": "Système Aéronefs",
+		"node_type": "System",
+		"parent_id": "fremm_ship"
+	},
+	{
+		"id": "fremm_boats_system",
+		"name": "Système Embarcations",
+		"node_type": "System",
+		"parent_id": "fremm_ship"
+	},
+	{
+		"id": "fremm_electronics_system",
+		"name": "Système Électronique",
+		"node_type": "System",
+		"parent_id": "fremm_ship"
+	},
+	{
+		"id": "propulsion_turbine_ge",
+		"name": "Turbine General Electric-Avio LM2500 + G4",
+		"node_type": "Equipment",
+		"parent_id": "fremm_propulsion_system"
+	},
+	{
+		"id": "propulsion_diesel_alternators",
+		"name": "Diesel-alternateurs",
+		"node_type": "Equipment",
+		"parent_id": "fremm_propulsion_system"
+	},
+	{
+		"id": "propulsion_reducteur",
+		"name": "Réducteur",
+		"node_type": "Equipment",
+		"parent_id": "fremm_propulsion_system"
+	},
+	{
+		"id": "propulsion_moteurs_electriques",
+		"name": "Moteurs Électriques",
+		"node_type": "Equipment",
+		"parent_id": "fremm_propulsion_system"
+	},
+	{
+		"id": "propulsion_embrayeur",
+		"name": "Embrayeur",
+		"node_type": "Equipment",
+		"parent_id": "fremm_propulsion_system"
+	},
+	{
+		"id": "armement_canon_76mm",
+		"name": "Canon Oto-Melara Compact SR 76mm",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_missiles_exocet",
+		"name": "Missiles MBDA Exocet MM40 Block 3/3c (8)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_missiles_otomat",
+		"name": "Missiles OTOMAT Mk2 ou MILAS (Alternative Exocet)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_sylver_a43_launcher",
+		"name": "Lanceur Sylver A43 (2)",
+		"node_type": "Subsystem",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_sylver_a70_launcher",
+		"name": "Lanceur Sylver A70 (2)",
+		"node_type": "Subsystem",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_torpilles_mu90",
+		"name": "Torpilles MU90 Impact (19)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_canons_20mm",
+		"name": "Canons 20mm téléopérés (2)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_canons_25mm",
+		"name": "Canons 25mm (Italie) (2)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "armement_missiles_mica_vl",
+		"name": "Missiles Mica VL (24) (Option)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_armement_system"
+	},
+	{
+		"id": "missiles_aster_15",
+		"name": "Missiles Aster 15 (16)",
+		"node_type": "Equipment",
+		"parent_id": "armement_sylver_a43_launcher"
+	},
+	{
+		"id": "missiles_mdcn",
+		"name": "Missiles MdCN (16)",
+		"node_type": "Equipment",
+		"parent_id": "armement_sylver_a70_launcher"
+	},
+	{
+		"id": "missiles_aster_30",
+		"name": "Missiles Aster 30 (16) (FREMMDA)",
+		"node_type": "Equipment",
+		"parent_id": "armement_sylver_a70_launcher"
+	},
+	{
+		"id": "aircraft_nh90",
+		"name": "Hélicoptère NHI Industries NH90-NFH",
+		"node_type": "Equipment",
+		"parent_id": "fremm_aircraft_system"
+	},
+	{
+		"id": "aircraft_ec725",
+		"name": "Hélicoptère Eurocopter EC-725 Cougar Resco",
+		"node_type": "Equipment",
+		"parent_id": "fremm_aircraft_system"
+	},
+	{
+		"id": "boats_ecume_ng",
+		"name": "Embarcation ECUME NG",
+		"node_type": "Equipment",
+		"parent_id": "fremm_boats_system"
+	},
+	{
+		"id": "boats_edo_ng",
+		"name": "Embarcation EDO NG",
+		"node_type": "Equipment",
+		"parent_id": "fremm_boats_system"
+	},
+	{
+		"id": "electronics_radar_herakles",
+		"name": "Radar Thales Herakles (France)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_radar_empar",
+		"name": "Radar Leonardo EMPAR (Italie)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_radar_scanter",
+		"name": "Radar Terma A/S SCANTER 2001",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_conduite_tir_na25xp",
+		"name": "Conduite de tir NA-25 XP",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_sonar_coque_4110cl",
+		"name": "Sonar de coque Thales 4110 CL",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_sonar_remorque_captas4",
+		"name": "Sonar remorqué Thales CAPTAS-4 (UMS 4249)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_detecteur_arbr21",
+		"name": "Détecteur ARBR 21",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_brouilleur",
+		"name": "Brouilleur",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_intercepteur_elite",
+		"name": "Intercepteur de transmissions Elite",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_centrales_inertielles_sigma40",
+		"name": "Centrales inertielles de navigation SIGMA40",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_lance_leurres",
+		"name": "Lance-leurres multifonctions (2)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_leurres_anti_torpilles",
+		"name": "Leurres anti-torpilles",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_setis",
+		"name": "SETIS (Système de combat)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_liaison11",
+		"name": "Liaison 11",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_liaison16",
+		"name": "Liaison 16",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_liaison22",
+		"name": "Liaison 22",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	},
+	{
+		"id": "electronics_sic21",
+		"name": "SIC21 (Système de communication)",
+		"node_type": "Equipment",
+		"parent_id": "fremm_electronics_system"
+	}
+]
