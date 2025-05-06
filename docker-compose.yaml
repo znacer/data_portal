@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:17.4-alpine3.21
+    ports:
+      - "5433:5432"
+    environment:
+      - PGDATA=/var/lib/postgresql/data
+      - POSTGRES_DB=dataportal
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secretpassword
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  timescaledb:
+    image: timescale/timescaledb-ha:pg17
+    command: postgres -c shared_preload_libraries=timescaledb
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=data
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secretpassword
+    volumes:
+      - timescaledb:/home/postgres/pgdata/data
+
+  grafana:
+    image: grafana/grafana-oss
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana:/var/lib/grafana
+volumes:
+  postgres:
+  grafana:
+  timescaledb:
