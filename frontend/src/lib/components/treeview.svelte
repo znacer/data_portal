@@ -1,16 +1,14 @@
 <script lang="ts">
-	import type { Node, TreeNode } from '$lib/types';
+	import type { TreeNode } from '$lib/types';
 	import Treeview from '$lib/components/treeview.svelte';
 	import { ChevronDown, ChevronRight } from '@lucide/svelte';
 
 	let {
 		root,
-		selectedNode,
-		onSelectNode
+		selectedNode = $bindable()
 	}: {
 		root: TreeNode;
-		selectedNode: Node | null;
-		onSelectNode: (node: TreeNode) => void; // Callback to update parent state
+		selectedNode: TreeNode | null;
 	} = $props();
 
 	// Local, non-reactive state for expansion toggles
@@ -25,6 +23,9 @@
 		e.stopPropagation();
 		toggleExpand(root.id);
 	};
+	const onSelectNode = (n: TreeNode) => {
+		selectedNode = n;
+	};
 
 	// Derive the selected ID directly from the selectedNode prop
 	let currentSelectedId = $derived(selectedNode?.id ?? null);
@@ -32,7 +33,9 @@
 
 <ul class="mx-2">
 	<div
-		class="flex cursor-pointer items-center rounded-xl"
+		class="my-1 flex cursor-pointer items-center rounded-xl
+    {root.children?.length === 0 ? 'bg-base-300/20' : ''}
+    "
 		class:font-bold={currentSelectedId === root.id}
 		class:bg-info={currentSelectedId === root.id}
 		class:text-info-content={currentSelectedId === root.id}
@@ -40,7 +43,7 @@
 		role="button"
 		tabindex="0"
 		onkeydown={(e) => {
-			if (e.key === 'ENTER' || e.key === ' ') onSelectNode(root);
+			if (e.key === 'Enter' || e.key === ' ') onSelectNode(root);
 		}}
 	>
 		{#if root.children && root.children.length > 0}
@@ -61,14 +64,14 @@
 		{:else}
 			<span class="mr-1 inline-block w-4"></span>
 		{/if}
-		<p class="text-base-content">
+		<p class="text-base-content text-sm">
 			{root.name} <span class="text-base-content/50">({root.type})</span>
 		</p>
 	</div>
 	{#if root.children && root.children.length > 0 && !expanded[root.id]}
 		{#each root.children as node (node.id)}
 			<li>
-				<Treeview root={node} {selectedNode} {onSelectNode} />
+				<Treeview root={node} bind:selectedNode />
 			</li>
 		{/each}
 	{/if}

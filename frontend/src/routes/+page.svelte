@@ -6,4 +6,11 @@
 	let selectedNode = $state(null);
 </script>
 
-<Treeview root={data.nodes[0]} {selectedNode} onSelectNode={() => {}} />
+<div class="card bg-base-100 h-full w-96 overflow-auto shadow-sm">
+	<div class="card-title bg-base-100 sticky top-0 justify-center shadow">
+		Arborescence
+	</div>
+	<div class="card-body">
+		<Treeview root={data.nodes[0]} bind:selectedNode />
+	</div>
+</div>

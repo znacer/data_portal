@@ -13,10 +13,8 @@ export async function fetchNodes() {
 
 export async function addNode(newNode: Node) {
 	const payload = nodeInsertSchema.parse({
-		id: newNode.id,
-		type: newNode.node_type.toUpperCase(),
-		name: newNode.name,
-		parentId: newNode.parent_id
+		...newNode,
+		type: newNode.type.toUpperCase()
 	});
 	const response = db
 		.insert(nodes)
