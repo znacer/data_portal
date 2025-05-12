@@ -3,6 +3,7 @@ import { addNode } from '../crud/nodes';
 
 export async function initDb() {
 	devNodes.forEach((n) => {
+		console.log(n);
 		const newNode = {
 			name: n.name,
 			type: n.node_type,
@@ -11,6 +12,10 @@ export async function initDb() {
 			dbShipId: null,
 			id: n.id
 		};
-		addNode(newNode);
+		try {
+			addNode(newNode);
+		} catch (e) {
+			console.debug(e);
+		}
 	});
 }

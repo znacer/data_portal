@@ -1,78 +1,77 @@
 <script lang="ts">
+	import * as echarts from 'echarts';
 	import type { TreeNode } from '$lib/types';
-	import Treeview from '$lib/components/treeview.svelte';
-	import { ChevronDown, ChevronRight } from '@lucide/svelte';
 
 	let {
 		root,
 		selectedNode = $bindable()
 	}: {
 		root: TreeNode;
-		selectedNode: TreeNode | null;
+		selectedNode: string | null;
 	} = $props();
 
-	// Local, non-reactive state for expansion toggles
-	let expanded: Record<string, boolean> = $state({});
-	root.children?.forEach((n) => {
-		expanded[n.id] = true;
-	});
-	function toggleExpand(nodeId: string) {
-		expanded[nodeId] = !expanded[nodeId];
+	function charts(node: HTMLDivElement, option: echarts.EChartsOption) {
+		const chart = echarts.init(node);
+		chart.setOption(option);
+		chart.on('click', (params) => {
+			if (params.componentType === 'series') {
+				selectedNode = params.data.id;
+			}
+		});
 	}
-	const handleClick = (e: Event) => {
-		e.stopPropagation();
-		toggleExpand(root.id);
-	};
-	const onSelectNode = (n: TreeNode) => {
-		selectedNode = n;
-	};
 
-	// Derive the selected ID directly from the selectedNode prop
-	let currentSelectedId = $derived(selectedNode?.id ?? null);
+	let option: echarts.EChartsOption = {
+		tooltip: {
+			trigger: 'item',
+			triggerOn: 'mousemove'
+		},
+		series: [
+			{
+				type: 'tree',
+				id: 0,
+				name: 'tree1',
+				data: [root],
+
+				top: '10%',
+				left: '8%',
+				bottom: '22%',
+				right: '20%',
+
+				symbolSize: 12,
+
+				edgeShape: 'polyline',
+				edgeForkPosition: '33%',
+				initialTreeDepth: 1,
+
+				lineStyle: {
+					width: 2
+				},
+
+				label: {
+					backgroundColor: '#fff',
+					position: 'left',
+					verticalAlign: 'middle',
+					align: 'right'
+				},
+
+				leaves: {
+					label: {
+						position: 'right',
+						verticalAlign: 'middle',
+						align: 'left'
+					}
+				},
+
+				emphasis: {
+					focus: 'descendant'
+				},
+
+				expandAndCollapse: true,
+				animationDuration: 550,
+				animationDurationUpdate: 750
+			}
+		]
+	};
 </script>
 
-<ul class="mx-2">
-	<div
-		class="my-1 flex cursor-pointer items-center rounded-xl
-    {root.children?.length === 0 ? 'bg-base-300/20' : ''}
-    "
-		class:font-bold={currentSelectedId === root.id}
-		class:bg-info={currentSelectedId === root.id}
-		class:text-info-content={currentSelectedId === root.id}
-		onclick={() => onSelectNode(root)}
-		role="button"
-		tabindex="0"
-		onkeydown={(e) => {
-			if (e.key === 'Enter' || e.key === ' ') onSelectNode(root);
-		}}
-	>
-		{#if root.children && root.children.length > 0}
-			<button
-				class="mr-2 w-4 text-center text-xs focus:outline-none"
-				onclick={handleClick}
-				aria-label={expanded[root.id]
-					? `Collapse ${root.name}`
-					: `Expand ${root.name}`}
-				aria-expanded={expanded[root.id]}
-			>
-				{#if !expanded[root.id]}
-					<ChevronDown class="size-5" />
-				{:else}
-					<ChevronRight class="size-5" />
-				{/if}
-			</button>
-		{:else}
-			<span class="mr-1 inline-block w-4"></span>
-		{/if}
-		<p class="text-base-content text-sm">
-			{root.name} <span class="text-base-content/50">({root.type})</span>
-		</p>
-	</div>
-	{#if root.children && root.children.length > 0 && !expanded[root.id]}
-		{#each root.children as node (node.id)}
-			<li>
-				<Treeview root={node} bind:selectedNode />
-			</li>
-		{/each}
-	{/if}
-</ul>
+<div use:charts={option} class="h-full w-full"></div>

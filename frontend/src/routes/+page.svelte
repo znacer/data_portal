@@ -6,7 +6,7 @@
 	let selectedNode = $state(null);
 </script>
 
-<div class="card bg-base-100 h-full w-96 overflow-auto shadow-sm">
+<div class="card bg-base-100 h-2/3 w-full overflow-auto shadow-sm">
 	<div class="card-title bg-base-100 sticky top-0 justify-center shadow">
 		Arborescence
 	</div>
