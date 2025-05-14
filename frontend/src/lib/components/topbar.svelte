@@ -4,12 +4,11 @@
 
 <header class="navbar bg-base-100">
 	<div class="flex-1">
-		<a class="btn btn-ghost text-xl" href="/">My App</a>
+		<a class="btn btn-ghost text-xl" href="/">Portail des données</a>
 	</div>
 	<div class="flex-none">
 		<label class="swap swap-rotate">
 			<input type="checkbox" class="theme-controller hidden" value="business" />
-
 			<Sun class="swap-off size-7 fill-current" />
 			<Moon class="swap-on size-7 fill-current" />
 		</label>
