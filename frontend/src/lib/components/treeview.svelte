@@ -31,6 +31,7 @@
 			.partition<TreeNode>()
 			.size([height, ((hierarchy.height + 1) * width) / 3])(hierarchy)
 	);
+	let selectedRect = $state(root); // TODO: useContext
 
 	let vis: HTMLDivElement | undefined = $state();
 	function redraw() {
@@ -100,11 +101,11 @@
 		);
 
 		// On click, change the focus and transitions it into view.
-		let focus = root;
+		selectedRect = root;
 		function clicked(event: Event, p: d3.HierarchyRectangularNode<TreeNode>) {
 			if (p.parent === null) return;
-			focus = focus === p ? (p = p.parent) : p;
-			selectedNode = focus.data;
+			selectedRect = selectedRect === p ? (p = p.parent) : p;
+			selectedNode = selectedRect.data;
 
 			root.each(
 				(d) =>
@@ -143,6 +144,17 @@
 	// });
 </script>
 
+<div class="breadcrumbs text-sm">
+	<ul>
+		{#each selectedRect.ancestors().reverse() as parent, i (i)}
+			<li>
+				<button>
+					{parent.data.name}
+				</button>
+			</li>
+		{/each}
+	</ul>
+</div>
 <div
 	id="vis"
 	bind:this={vis}
