@@ -1,5 +1,5 @@
 import { db } from '$lib/server/db';
-import { nodeInsertSchema, nodes } from '$lib/server/db/schema';
+import { nodeInsertSchema, nodes, nodeTypeEnum } from '$lib/server/db/schema';
 import type { Node, TreeNode } from '$lib/types';
 
 export async function fetchNodes() {
@@ -57,4 +57,8 @@ export async function buildTreeFromFlatNodes(): Promise<TreeNode[]> {
 	});
 
 	return tree;
+}
+
+export async function fetchNodeTypes(): Promise<string[]> {
+	return nodeTypeEnum.enumValues.map((v) => v.toString());
 }

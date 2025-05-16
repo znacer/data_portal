@@ -1,12 +1,24 @@
 <script lang="ts">
-	import type { TreeNode } from '$lib/types';
+	import Tabs from '$lib/components/ui/tabs.svelte';
+	import type { D3Node } from '$lib/types';
+	import NodeInfo from './node_info.svelte';
+	import TreeEdit from './tree_edit.svelte';
 
-	let { selectedNode }: { selectedNode: TreeNode } = $props();
+	let {
+		selectedNode = $bindable()
+	}: {
+		selectedNode: D3Node;
+	} = $props();
+
+	const tabTitles = ['Info', "Edition de l'arbre"];
 </script>
 
-<div class="flex flex-col align-top">
-	<p>name: {selectedNode.name}</p>
-	<p>id: {selectedNode.id}</p>
-	<p>parent: {selectedNode.parentId}</p>
-	<p>type: {selectedNode.type}</p>
-</div>
+<Tabs titles={tabTitles} contentSnippets={[info, editor]} />
+
+{#snippet info()}
+	<NodeInfo {selectedNode} />
+{/snippet}
+
+{#snippet editor()}
+	<TreeEdit {selectedNode} />
+{/snippet}

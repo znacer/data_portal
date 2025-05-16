@@ -1,14 +1,16 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-	import type { TreeNode } from '$lib/types';
+	import type { D3Node, TreeNode } from '$lib/types';
+	import { getContext } from 'svelte';
 
 	let {
-		data,
 		selectedNode = $bindable()
 	}: {
-		data: TreeNode;
-		selectedNode: TreeNode | null;
+		selectedNode: D3Node | null;
 	} = $props();
+
+	let hierarchy: d3.HierarchyRectangularNode<TreeNode> =
+		getContext('hierarchy');
 
 	const numCol = 3;
 	const transitionDuration = 750;
@@ -18,25 +20,12 @@
 	// d3 format function
 	const format = d3.format(',d');
 
-	type d3Node = d3.HierarchyRectangularNode<TreeNode> & {
-		target?: d3.HierarchyRectangularNode<TreeNode>['target'];
-	};
 	// Compute the color scale. Handle potential null data initially.
 	let color = $derived(
-		data && data.children
+		hierarchy.data && hierarchy.data.children
 			? d3.scaleOrdinal(
-					d3.quantize(d3.interpolateWarm, data.children.length + 1)
+					d3.quantize(d3.interpolateWarm, hierarchy.data.children.length + 1)
 				)
-			: null
-	);
-
-	// Compute the hierarchy layout. Handle potential null data initially.
-	let hierarchy = $derived(
-		data
-			? d3
-					.hierarchy(data)
-					.sum((d) => (d.children && d.children.length > 0 ? 0 : 1))
-					.sort((a, b) => b.height - a.height)
 			: null
 	);
 
@@ -49,30 +38,26 @@
 			: null
 	);
 
-	// State for the currently "selected" or zoomed partition node in the visualization layout
-	let selectedRect = $state<d3.HierarchyRectangularNode<TreeNode> | null>(null);
-
 	// References to DOM elements obtained via bind:this
 	let vis: HTMLDivElement | undefined = $state();
 	let svg: SVGSVGElement | undefined = $state();
 
 	// Effect to set initial selectedRect when root is first computed
 	$effect(() => {
-		if (root && !selectedRect) {
-			selectedRect = root;
-			selectedNode = root.data;
+		if (root && !selectedNode) {
+			selectedNode = root;
 		}
 	});
 
 	// Helper functions for D3 transitions - now these need to work with 'target' coordinates
 	// We'll attach 'target' coordinates to the data nodes within the transition effect
-	function rectHeight(d: d3Node) {
+	function rectHeight(d: D3Node) {
 		return (
 			d.target.x1 - d.target.x0 - Math.min(1, (d.target.x1 - d.target.x0) / 2)
 		);
 	}
 
-	function labelVisible(d: d3Node) {
+	function labelVisible(d: D3Node) {
 		// Check if the label would be visible within the *target* viewport dimensions (width, height)
 		return (
 			d.target.y1 <= width && d.target.y0 >= 0 && d.target.x1 - d.target.x0 > 16
@@ -81,12 +66,12 @@
 
 	// Effect to handle D3 transitions when selectedRect changes
 	$effect(() => {
-		if (!selectedRect || !svg || !root) return;
+		if (!selectedNode || !svg || !root) return;
 
-		const p = selectedRect; // The new node to focus on
+		const p = selectedNode; // The new node to focus on
 
 		root.each(
-			(d: d3Node) =>
+			(d: D3Node) =>
 				(d.target = {
 					x0: ((d.x0 - p.x0) / (p.x1 - p.x0)) * height,
 					x1: ((d.x1 - p.x0) / (p.x1 - p.x0)) * height,
@@ -106,14 +91,14 @@
 			.duration(transitionDuration)
 			.attr(
 				'transform',
-				(d: d3Node) => `translate(${d.target.y0},${d.target.x0})`
+				(d: D3Node) => `translate(${d.target.y0},${d.target.x0})`
 			);
 		// Animate the rect height using the helper function with target coordinates
 		cells
 			.select('rect')
 			.transition()
 			.duration(transitionDuration)
-			.attr('height', (d: d3Node) => rectHeight(d));
+			.attr('height', (d: D3Node) => rectHeight(d));
 
 		// Animate text opacity based on target visibility
 		cells
@@ -140,13 +125,12 @@
 		event.stopPropagation();
 
 		// Cannot click on the root itself to zoom out further
-		if (p.parent === null && selectedRect === p) {
+		if (p.parent === null && selectedNode === p) {
 			return;
 		}
 
 		// If clicking the currently selected node, zoom out to its parent. Otherwise, zoom into the clicked node.
-		selectedRect = selectedRect === p ? (p = p.parent!) : p;
-		selectedNode = selectedRect.data;
+		selectedNode = selectedNode === p ? (p = p.parent!) : p;
 		// The $effect above will react to the change in selectedRect and trigger the D3 transition
 	}
 </script>
@@ -155,9 +139,9 @@
 	<!-- Breadcrumbs -->
 	<div class="breadcrumbs bg-base-200 mb-2 h-10 px-2 text-sm">
 		<ul>
-			{#if selectedRect}
+			{#if selectedNode}
 				<!-- Ensure selectedRect is not null before iterating -->
-				{#each selectedRect.ancestors().reverse() as parent (parent.data.id)}
+				{#each selectedNode.ancestors().reverse() as parent (parent.data.id)}
 					<!-- Use node id as key for list items -->
 					<li>
 						<!-- Clicking a breadcrumb zooms out to that level -->

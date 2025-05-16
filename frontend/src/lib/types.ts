@@ -37,3 +37,7 @@ export type NodeWithLink = Node & {
 export interface TreeNode extends Node {
 	children: TreeNode[];
 }
+
+export type D3Node = d3.HierarchyRectangularNode<TreeNode> & {
+	target?: d3.HierarchyRectangularNode<TreeNode>['target'];
+};
