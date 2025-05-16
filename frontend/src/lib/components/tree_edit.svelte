@@ -1,6 +1,6 @@
 <script lang="ts">
 	import NodeForm from './node_form.svelte';
-	import type { D3Node } from '$lib/types';
+	import type { Node, D3Node } from '$lib/types';
 
 	let {
 		selectedNode = $bindable()
@@ -9,7 +9,14 @@
 	} = $props();
 	let editMode = $state(0);
 	let addMode = $state(0);
+	const defaultNode = {
+		id: 'nouvel identifiant',
+		name: 'nouveau noeud',
+		type: 'SHIP',
+		parentId: ''
+	} as Node;
 	let deleteMode = $state(0);
+	let deleteId = $state('');
 
 	// if more than 1 mode activated, deactivate all
 	$effect(() => {
@@ -46,6 +53,50 @@
 		</button>
 	</div>
 	{#if editMode === 1}
-		<NodeForm {selectedNode} />
+		<form
+			class="flex w-full flex-col align-top"
+			method="POST"
+			action="/?/edit_node"
+		>
+			<NodeForm
+				selectedNode={selectedNode.data}
+				descendants={selectedNode.descendants()}
+			/>
+			<button class="btn btn-accent">Enregistrer</button>
+		</form>
+	{/if}
+	{#if addMode === 1}
+		<form
+			class="flex w-full flex-col align-top"
+			method="POST"
+			action="/?/add_node"
+		>
+			<NodeForm selectedNode={defaultNode} descendants={[]} />
+			<button class="btn btn-accent">Enregistrer</button>
+		</form>
+	{/if}
+	{#if deleteMode === 1}
+		<form
+			class="mt-4 flex w-full flex-col align-top"
+			method="POST"
+			action="/?/delete_node"
+		>
+			<fieldset class="fieldset">
+				<p>
+					Renseigner l'identifiant du noeud
+					<strong>{selectedNode.data.id}</strong> pour confirmer :
+				</p>
+				<label class="input">
+					<span class="label">id </span>
+					<input type="text" name="id" bind:value={deleteId} />
+				</label>
+				<button
+					class="btn btn-accent"
+					disabled={deleteId !== selectedNode.data.id}
+				>
+					Enregistrer
+				</button>
+			</fieldset>
+		</form>
 	{/if}
 </div>

@@ -1,6 +1,12 @@
 import { db } from '$lib/server/db';
-import { nodeInsertSchema, nodes, nodeTypeEnum } from '$lib/server/db/schema';
-import type { Node, TreeNode } from '$lib/types';
+import {
+	nodeInsertSchema,
+	nodes,
+	nodeTypeEnum,
+	nodeUpdateSchema
+} from '$lib/server/db/schema';
+import type { NodeInsert, NodeUpdate, TreeNode } from '$lib/types';
+import { eq } from 'drizzle-orm';
 
 export async function fetchNodes() {
 	// return await db.select().from(nodes);
@@ -11,17 +17,56 @@ export async function fetchNodes() {
 	});
 }
 
-export async function addNode(newNode: Node) {
+export async function addNode(newNode: NodeInsert) {
 	const payload = nodeInsertSchema.parse({
 		...newNode,
 		type: newNode.type.toUpperCase()
 	});
-	const response = db
-		.insert(nodes)
-		.values(payload)
-		.onConflictDoNothing()
-		.returning();
-	return response;
+	try {
+		const response = db
+			.insert(nodes)
+			.values(payload)
+			.onConflictDoNothing()
+			.returning();
+		return response;
+	} catch (error) {
+		console.error(`Add Node error: ${error}`);
+	}
+}
+
+export async function updateNode(updatedNode: NodeUpdate) {
+	const payload = nodeUpdateSchema.parse({
+		...updatedNode,
+		type: updatedNode.type?.toUpperCase(),
+		parentId: updatedNode.parentId === '' ? null : updatedNode.parentId
+	});
+
+	if (payload.id !== undefined) {
+		try {
+			const response = await db
+				.update(nodes)
+				.set(payload)
+				.where(eq(nodes.id, payload.id))
+				.returning();
+			console.info(`updated node ${response}`);
+		} catch (error) {
+			console.error(`Update Node error: ${error}`);
+		}
+	} else {
+		console.warn('Tried to update a node without specifying the id');
+	}
+}
+
+export async function deleteNode(nodeId: string) {
+	try {
+		const response = await db
+			.delete(nodes)
+			.where(eq(nodes.id, nodeId))
+			.returning();
+		console.info(`deleted node ${response}`);
+	} catch (error) {
+		console.error(`Update Node error: ${error}`);
+	}
 }
 
 export async function buildTreeFromFlatNodes(): Promise<TreeNode[]> {
