@@ -1,0 +1,1802 @@
+[
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T11:03:26.806192",
+        "value": 44.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T11:03:26.806192",
+        "value": 29.8
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T11:13:26.806192",
+        "value": 29.85
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T11:13:26.806192",
+        "value": 97.16
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T11:13:26.806192",
+        "value": 58.18
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T11:23:26.806192",
+        "value": 7.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T11:23:26.806192",
+        "value": 16.89
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T11:33:26.806192",
+        "value": 1.02
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T11:33:26.806192",
+        "value": 73.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T11:33:26.806192",
+        "value": 3.04
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T11:43:26.806192",
+        "value": 88.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T11:43:26.806192",
+        "value": 64.16
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T11:53:26.806192",
+        "value": 59.3
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T11:53:26.806192",
+        "value": 44.22
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T11:53:26.806192",
+        "value": 6.33
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T12:03:26.806192",
+        "value": 87.57
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T12:03:26.806192",
+        "value": 81.66
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:03:26.806192",
+        "value": 99.73
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:13:26.806192",
+        "value": 27.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:23:26.806192",
+        "value": 35.62
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T12:33:26.806192",
+        "value": 58.84
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:33:26.806192",
+        "value": 77.32
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T12:43:26.806192",
+        "value": 64.55
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:43:26.806192",
+        "value": 60.62
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T12:43:26.806192",
+        "value": 68.33
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T12:53:26.806192",
+        "value": 26.1
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T12:53:26.806192",
+        "value": 14.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T12:53:26.806192",
+        "value": 82.01
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T13:03:26.806192",
+        "value": 90.12
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T13:13:26.806192",
+        "value": 30.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T13:13:26.806192",
+        "value": 63.4
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T13:13:26.806192",
+        "value": 45.85
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T13:23:26.806192",
+        "value": 25.43
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T13:33:26.806192",
+        "value": 33.28
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T13:33:26.806192",
+        "value": 9.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T13:43:26.806192",
+        "value": 28.71
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T13:43:26.806192",
+        "value": 15.43
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T13:43:26.806192",
+        "value": 1.88
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T13:53:26.806192",
+        "value": 78.05
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T14:03:26.806192",
+        "value": 77.8
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T14:13:26.806192",
+        "value": 76.35
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T14:23:26.806192",
+        "value": 47.55
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T14:23:26.806192",
+        "value": 91.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T14:33:26.806192",
+        "value": 33.84
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T14:33:26.806192",
+        "value": 88.05
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T14:43:26.806192",
+        "value": 20.19
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T14:43:26.806192",
+        "value": 67.81
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T14:53:26.806192",
+        "value": 68.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T14:53:26.806192",
+        "value": 73.09
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T15:03:26.806192",
+        "value": 34.82
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T15:03:26.806192",
+        "value": 49.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T15:13:26.806192",
+        "value": 73.65
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T15:23:26.806192",
+        "value": 52.26
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T15:23:26.806192",
+        "value": 63.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T15:23:26.806192",
+        "value": 90.55
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T15:33:26.806192",
+        "value": 2.05
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T15:33:26.806192",
+        "value": 92.03
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T15:43:26.806192",
+        "value": 37.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T15:43:26.806192",
+        "value": 62.63
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T15:53:26.806192",
+        "value": 93.99
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T15:53:26.806192",
+        "value": 19.27
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T15:53:26.806192",
+        "value": 36.91
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T16:03:26.806192",
+        "value": 1.73
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T16:03:26.806192",
+        "value": 56.47
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T16:03:26.806192",
+        "value": 18.73
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T16:13:26.806192",
+        "value": 32.39
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T16:23:26.806192",
+        "value": 91.49
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T16:33:26.806192",
+        "value": 48.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T16:33:26.806192",
+        "value": 76.88
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T16:33:26.806192",
+        "value": 13.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T16:43:26.806192",
+        "value": 79.46
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T16:43:26.806192",
+        "value": 36.56
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T16:53:26.806192",
+        "value": 33.66
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T16:53:26.806192",
+        "value": 31.11
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T16:53:26.806192",
+        "value": 69.03
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T17:03:26.806192",
+        "value": 17.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T17:13:26.806192",
+        "value": 61.5
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T17:23:26.806192",
+        "value": 34.89
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T17:23:26.806192",
+        "value": 54.57
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T17:23:26.806192",
+        "value": 92.72
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T17:33:26.806192",
+        "value": 88.02
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T17:43:26.806192",
+        "value": 16.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T17:43:26.806192",
+        "value": 50.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T17:43:26.806192",
+        "value": 99.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T17:53:26.806192",
+        "value": 75.73
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T18:03:26.806192",
+        "value": 26.91
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T18:13:26.806192",
+        "value": 57.94
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T18:13:26.806192",
+        "value": 46.61
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T18:13:26.806192",
+        "value": 76.63
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T18:23:26.806192",
+        "value": 20.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T18:23:26.806192",
+        "value": 45.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T18:33:26.806192",
+        "value": 32.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T18:43:26.806192",
+        "value": 58.67
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T18:43:26.806192",
+        "value": 93.31
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T18:43:26.806192",
+        "value": 98.32
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T18:53:26.806192",
+        "value": 11.01
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T18:53:26.806192",
+        "value": 10.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T18:53:26.806192",
+        "value": 38.26
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T19:03:26.806192",
+        "value": 8.38
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T19:13:26.806192",
+        "value": 31.18
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T19:13:26.806192",
+        "value": 82.99
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T19:13:26.806192",
+        "value": 23.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T19:23:26.806192",
+        "value": 87.94
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T19:23:26.806192",
+        "value": 89.24
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T19:33:26.806192",
+        "value": 87.95
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T19:43:26.806192",
+        "value": 26.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T19:43:26.806192",
+        "value": 45.75
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T19:43:26.806192",
+        "value": 8.2
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T19:53:26.806192",
+        "value": 89.01
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T20:03:26.806192",
+        "value": 4.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T20:03:26.806192",
+        "value": 41.12
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T20:03:26.806192",
+        "value": 55.87
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T20:13:26.806192",
+        "value": 13.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T20:13:26.806192",
+        "value": 4.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T20:23:26.806192",
+        "value": 21.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T20:23:26.806192",
+        "value": 70.67
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T20:33:26.806192",
+        "value": 19.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T20:33:26.806192",
+        "value": 41.85
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T20:33:26.806192",
+        "value": 9.12
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T20:43:26.806192",
+        "value": 45.17
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T20:53:26.806192",
+        "value": 16.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T21:03:26.806192",
+        "value": 96.46
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T21:03:26.806192",
+        "value": 27.4
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T21:03:26.806192",
+        "value": 77.65
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T21:13:26.806192",
+        "value": 58.42
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T21:23:26.806192",
+        "value": 72.3
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T21:33:26.806192",
+        "value": 13.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T21:33:26.806192",
+        "value": 81.94
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T21:33:26.806192",
+        "value": 26.55
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T21:43:26.806192",
+        "value": 78.11
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T21:43:26.806192",
+        "value": 29.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T21:53:26.806192",
+        "value": 49.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T21:53:26.806192",
+        "value": 92.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T21:53:26.806192",
+        "value": 88.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T22:03:26.806192",
+        "value": 23.94
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T22:13:26.806192",
+        "value": 41.51
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T22:13:26.806192",
+        "value": 15.04
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T22:23:26.806192",
+        "value": 45.31
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T22:23:26.806192",
+        "value": 96.78
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T22:33:26.806192",
+        "value": 79.5
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T22:33:26.806192",
+        "value": 34.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T22:43:26.806192",
+        "value": 17.12
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T22:53:26.806192",
+        "value": 77.2
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T23:03:26.806192",
+        "value": 45.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T23:03:26.806192",
+        "value": 60.17
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T23:03:26.806192",
+        "value": 38.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T23:13:26.806192",
+        "value": 82.51
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T23:13:26.806192",
+        "value": 44.27
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T23:13:26.806192",
+        "value": 53.92
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T23:23:26.806192",
+        "value": 46.39
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T23:23:26.806192",
+        "value": 96.11
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T23:23:26.806192",
+        "value": 70.08
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T23:33:26.806192",
+        "value": 27.78
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T23:33:26.806192",
+        "value": 51.75
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T23:43:26.806192",
+        "value": 21.53
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-19T23:53:26.806192",
+        "value": 42.66
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-19T23:53:26.806192",
+        "value": 96.52
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-19T23:53:26.806192",
+        "value": 92.72
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T00:03:26.806192",
+        "value": 78.46
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T00:13:26.806192",
+        "value": 84.63
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T00:13:26.806192",
+        "value": 50.69
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T00:13:26.806192",
+        "value": 27.27
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T00:23:26.806192",
+        "value": 52.63
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T00:23:26.806192",
+        "value": 97.49
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T00:23:26.806192",
+        "value": 91.24
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T00:33:26.806192",
+        "value": 62.93
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T00:43:26.806192",
+        "value": 69.54
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T00:53:26.806192",
+        "value": 9.29
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T00:53:26.806192",
+        "value": 23.91
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T00:53:26.806192",
+        "value": 78.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T01:03:26.806192",
+        "value": 57.7
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:03:26.806192",
+        "value": 24.65
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T01:03:26.806192",
+        "value": 72.81
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T01:13:26.806192",
+        "value": 83.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T01:13:26.806192",
+        "value": 52.35
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:13:26.806192",
+        "value": 78.16
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T01:23:26.806192",
+        "value": 54.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T01:23:26.806192",
+        "value": 52.62
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:23:26.806192",
+        "value": 31.46
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:33:26.806192",
+        "value": 40.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T01:33:26.806192",
+        "value": 59.43
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T01:33:26.806192",
+        "value": 47.03
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T01:43:26.806192",
+        "value": 41.53
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:43:26.806192",
+        "value": 48.47
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T01:53:26.806192",
+        "value": 49.07
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T02:03:26.806192",
+        "value": 56.66
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T02:13:26.806192",
+        "value": 19.01
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T02:13:26.806192",
+        "value": 41.61
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T02:23:26.806192",
+        "value": 28.27
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T02:23:26.806192",
+        "value": 97.7
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T02:23:26.806192",
+        "value": 52.6
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T02:33:26.806192",
+        "value": 96.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T02:33:26.806192",
+        "value": 54.43
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T02:43:26.806192",
+        "value": 7.07
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T02:43:26.806192",
+        "value": 90.84
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T02:53:26.806192",
+        "value": 53.21
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T02:53:26.806192",
+        "value": 35.5
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T03:03:26.806192",
+        "value": 78.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:03:26.806192",
+        "value": 26.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:13:26.806192",
+        "value": 84.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T03:13:26.806192",
+        "value": 22.13
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T03:23:26.806192",
+        "value": 60.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:23:26.806192",
+        "value": 84.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:33:26.806192",
+        "value": 85.44
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T03:33:26.806192",
+        "value": 92.41
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T03:43:26.806192",
+        "value": 49.26
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T03:43:26.806192",
+        "value": 29.02
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:43:26.806192",
+        "value": 33.74
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T03:53:26.806192",
+        "value": 52.09
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T03:53:26.806192",
+        "value": 95.55
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T03:53:26.806192",
+        "value": 50.13
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:03:26.806192",
+        "value": 34.64
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:13:26.806192",
+        "value": 24.1
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T04:13:26.806192",
+        "value": 19.36
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T04:13:26.806192",
+        "value": 86.2
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T04:23:26.806192",
+        "value": 82.08
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T04:23:26.806192",
+        "value": 43.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:23:26.806192",
+        "value": 71.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T04:33:26.806192",
+        "value": 4.86
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:33:26.806192",
+        "value": 49.99
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:43:26.806192",
+        "value": 47.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T04:43:26.806192",
+        "value": 9.79
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T04:43:26.806192",
+        "value": 59.48
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T04:53:26.806192",
+        "value": 70.76
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T04:53:26.806192",
+        "value": 55.53
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T04:53:26.806192",
+        "value": 56.16
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:03:26.806192",
+        "value": 31.86
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T05:03:26.806192",
+        "value": 72.82
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T05:03:26.806192",
+        "value": 7.85
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:13:26.806192",
+        "value": 24.3
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T05:13:26.806192",
+        "value": 78.82
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T05:13:26.806192",
+        "value": 81.39
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:23:26.806192",
+        "value": 77.42
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T05:33:26.806192",
+        "value": 56.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:33:26.806192",
+        "value": 26.01
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T05:33:26.806192",
+        "value": 43.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T05:43:26.806192",
+        "value": 50.68
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T05:43:26.806192",
+        "value": 93.14
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:43:26.806192",
+        "value": 32.03
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T05:53:26.806192",
+        "value": 56.49
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T05:53:26.806192",
+        "value": 97.93
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T06:03:26.806192",
+        "value": 30.78
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T06:03:26.806192",
+        "value": 29.82
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T06:13:26.806192",
+        "value": 33.28
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T06:13:26.806192",
+        "value": 87.67
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T06:13:26.806192",
+        "value": 99.77
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T06:23:26.806192",
+        "value": 8.31
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T06:33:26.806192",
+        "value": 47.13
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T06:33:26.806192",
+        "value": 44.51
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T06:33:26.806192",
+        "value": 69.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T06:43:26.806192",
+        "value": 22.46
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T06:53:26.806192",
+        "value": 60.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T07:03:26.806192",
+        "value": 74.75
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:03:26.806192",
+        "value": 82.37
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T07:03:26.806192",
+        "value": 96.88
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:13:26.806192",
+        "value": 94.15
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T07:23:26.806192",
+        "value": 98.32
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T07:23:26.806192",
+        "value": 94.23
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:23:26.806192",
+        "value": 95.47
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T07:33:26.806192",
+        "value": 84.25
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:33:26.806192",
+        "value": 18.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:43:26.806192",
+        "value": 96.95
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T07:53:26.806192",
+        "value": 54.02
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T07:53:26.806192",
+        "value": 0.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T07:53:26.806192",
+        "value": 78.0
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T08:03:26.806192",
+        "value": 17.57
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T08:03:26.806192",
+        "value": 77.59
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:03:26.806192",
+        "value": 10.14
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T08:13:26.806192",
+        "value": 57.06
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T08:13:26.806192",
+        "value": 3.32
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:13:26.806192",
+        "value": 31.31
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T08:23:26.806192",
+        "value": 39.21
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:23:26.806192",
+        "value": 49.49
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:33:26.806192",
+        "value": 81.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T08:33:26.806192",
+        "value": 98.72
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:43:26.806192",
+        "value": 97.23
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T08:43:26.806192",
+        "value": 70.57
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T08:53:26.806192",
+        "value": 18.77
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T08:53:26.806192",
+        "value": 64.44
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:03:26.806192",
+        "value": 37.43
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T09:13:26.806192",
+        "value": 77.12
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:13:26.806192",
+        "value": 87.58
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:23:26.806192",
+        "value": 83.66
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T09:23:26.806192",
+        "value": 85.78
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T09:23:26.806192",
+        "value": 14.85
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:33:26.806192",
+        "value": 50.49
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:43:26.806192",
+        "value": 22.87
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T09:53:26.806192",
+        "value": 32.7
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T09:53:26.806192",
+        "value": 18.14
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T09:53:26.806192",
+        "value": 84.83
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T10:03:26.806192",
+        "value": 21.45
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T10:13:26.806192",
+        "value": 2.09
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T10:13:26.806192",
+        "value": 98.4
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T10:23:26.806192",
+        "value": 17.75
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T10:23:26.806192",
+        "value": 27.19
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T10:23:26.806192",
+        "value": 74.15
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T10:33:26.806192",
+        "value": 76.9
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_002",
+        "timestamp": "2025-05-20T10:43:26.806192",
+        "value": 73.97
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_003",
+        "timestamp": "2025-05-20T10:53:26.806192",
+        "value": 11.81
+    },
+    {
+        "ship_id": "ship_001",
+        "sensor_id": "sensor_001",
+        "timestamp": "2025-05-20T11:03:26.806192",
+        "value": 4.62
+    }
+]
