@@ -1,38 +1,71 @@
-# sv
+# Data Portal Frontend
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This project is a SvelteKit frontend for a data portal. It uses Vite for development and building, and includes Storybook for component development.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+Before you begin, ensure you have the following installed:
+
+-   Node.js (version >= 16)
+-   npm, or bun
+
+## Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    cd frontend
+    ```
+
+2.  Install the dependencies using your preferred package manager:
+
+    ```bash
+    npm install
+    # or
+    bun install
+    ```
+
+## Development
+
+To start the development server, run:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+bun run dev
 ```
 
-## Developing
+This will start the server and open the app in your default browser. You can then access the application at the address provided in the console (usually http://localhost:5173).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Storybook
+This project uses Storybook for developing and showcasing UI components.
 
+To start the Storybook development server, run:
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun run storybook
 ```
+This will start the Storybook server and open it in your default browser, usually at http://localhost:6006.
 
-## Building
-
-To create a production version of your app:
-
+Building
+To create a production build of the application, run:
 ```bash
-npm run build
+bun run build
 ```
+This will generate optimized static assets in the build directory.
 
-You can preview the production build with `npm run preview`.
+Previewing
+You can preview the production build locally using:
+```bash
+bun run preview
+```
+Database
+This project uses Drizzle ORM for database interactions. The following commands are available for managing the database:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+`bun run db:push`: Push database schema changes.
+`bun run db:migrate`: Run database migrations.
+`bun run db:studio`: Open Drizzle Studio to visualize the database.
+Linting and Formatting
+To ensure code quality and consistency, the following commands are available:
+
+
+Deployment  
+TODO
