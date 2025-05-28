@@ -12,7 +12,7 @@ A SvelteKit web application with:
 - Drizzle ORM for database operations
 - Internationalization with Paraglide
 
-### OpenIMS ([openims/](openims/))
+### OpenIMS ([openims/](openims/)) (Work In Progress)
 A FastAPI-based backend service using:
 - Python 3.12+
 - SQLAlchemy for database operations
@@ -20,7 +20,7 @@ A FastAPI-based backend service using:
 - Polars for data processing
 - PostgreSQL database
 
-### Analyzer ([analyzer/](analyzer/))
+### Analyzer ([analyzer/](analyzer/)) (Work in Progress)
 A Python-based data analysis service
 
 ## Prerequisites
